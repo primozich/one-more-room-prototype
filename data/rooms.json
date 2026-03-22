@@ -1,0 +1,39 @@
+{
+  "rooms": [
+    {
+      "id": "combat_small_01",
+      "type": "combat",
+      "weight": 10,
+      "minDepth": 1,
+      "maxDepth": 99,
+      "tags": ["small", "intro"],
+      "scene": "res://scenes/rooms/combat_small_01.tscn",
+      "enemies": [
+        { "id": "slime", "count": 4 },
+        { "id": "bat", "count": 2 }
+      ],
+      "onClearRewardPool": "standard"
+    },
+    {
+      "id": "event_shrine_01",
+      "type": "event",
+      "weight": 4,
+      "minDepth": 2,
+      "maxDepth": 99,
+      "tags": ["shrine"],
+      "scene": "res://scenes/rooms/event_shrine_01.tscn",
+      "eventId": "blood_shrine",
+      "onClearRewardPool": "event"
+    },
+    {
+      "id": "shop_01",
+      "type": "shop",
+      "weight": 3,
+      "minDepth": 3,
+      "maxDepth": 99,
+      "tags": ["safe"],
+      "scene": "res://scenes/rooms/shop_01.tscn",
+      "shopTier": 1
+    }
+  ]
+}
