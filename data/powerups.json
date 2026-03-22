@@ -1,0 +1,25 @@
+{
+  "powerups": [
+    {
+      "id": "glass_cannon",
+      "name": "Glass Cannon",
+      "rarity": "common",
+      "tags": ["damage", "risk"],
+      "modifiers": {
+        "damageMult": 1.25,
+        "maxHpMult": 0.9
+      },
+      "exclusions": []
+    },
+    {
+      "id": "vamp_strikes",
+      "name": "Vamp Strikes",
+      "rarity": "rare",
+      "tags": ["lifesteal"],
+      "modifiers": {
+        "lifestealPct": 0.05
+      },
+      "exclusions": []
+    }
+  ]
+}
