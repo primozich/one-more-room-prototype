@@ -1,0 +1,18 @@
+{
+  "rewardPools": {
+    "standard": [
+      { "kind": "powerup", "rarity": "common", "weight": 60 },
+      { "kind": "weapon_mod", "rarity": "common", "weight": 25 },
+      { "kind": "currency", "amount": [15, 30], "weight": 15 }
+    ],
+    "event": [
+      { "kind": "powerup", "rarity": "rare", "weight": 40 },
+      { "kind": "heal", "amount": 20, "weight": 30 },
+      { "kind": "curse_boon", "weight": 30 }
+    ],
+    "boss": [
+      { "kind": "powerup", "rarity": "epic", "weight": 70 },
+      { "kind": "max_hp_up", "amount": 10, "weight": 30 }
+    ]
+  }
+}
